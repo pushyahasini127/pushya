@@ -125,6 +125,6 @@ if (contactForm) {
     const message = document.getElementById('cf-message').value.trim();
     const subject = encodeURIComponent(`Portfolio contact from ${name || 'website visitor'}`);
     const body = encodeURIComponent(`${message}\n\n— ${name} (${email})`);
-    window.location.href = `mailto:wlfshubm@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:PUSHYAHASINIKATTULA@GMAIL.COM?subject=${subject}&body=${body}`;
   });
 }
